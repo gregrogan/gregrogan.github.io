@@ -3,7 +3,7 @@
     <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
   </head>
   <body>
-    Search <input onChange="updateVidList" />
+    Search <form id="search-form"><input name="q" /><input type="submit" name="submit"></form>
 
     <div id="video"></div>
 
@@ -11,7 +11,7 @@
 
     <script id="t-vid-list" type="text/x-jsrender">
       <li>
-        <a href="#" onClick="showVid({{:#index}})">{{:title}}</a>
+        <a href="#" onClick="showVid({{:id}})">{{:title}}</a>
       </li>
     </script>
 
@@ -34,18 +34,33 @@
 
       function renderVidList(vidList) {
         $('#vid-list').html(
-          $.templates("#t-vid-list").render(vids)
+          $.templates("#t-vid-list").render(vidList)
         )
-      }
-
-      function updateVidList(e) {
-        debugger;
       }
 
       document.addEventListener('DOMContentLoaded', function () {
         $.getJSON('/m/vids.json', function(data) {
           window.vids = data;
-          renderVidList(data)
+          // give each vid an ID
+          window.vids.forEach((vid, i) => vid.id = i);
+
+          renderVidList(window.vids)
+        })
+
+        $('#search-form').on('submit', function(e){
+          e.preventDefault();
+          var q = e.currentTarget.q.value.toLowerCase();
+          if (q.trim().length == 0) {
+            renderVidList(vids)
+            return;
+          }
+
+          var filteredVids = $.grep(vids, function(vid){
+            var title = vid.title.toLowerCase();
+            return title.includes(q)
+          });
+
+          renderVidList(filteredVids)
         })
       });
     </script>
