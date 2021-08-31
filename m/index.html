@@ -43,7 +43,7 @@
       }
 
       document.addEventListener('DOMContentLoaded', function () {
-        $.getJSON('/vids.json', function(data) {
+        $.getJSON('/m/vids.json', function(data) {
           window.vids = data;
           renderVidList(data)
         })
