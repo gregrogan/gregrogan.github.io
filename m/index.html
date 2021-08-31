@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+  </head>
+  <body>
+    Search <input onChange="updateVidList" />
+
+    <div id="video"></div>
+
+    <ul id="vid-list"></ul>
+
+    <script id="t-vid-list" type="text/x-jsrender">
+      <li>
+        <a href="#" onClick="showVid({{:#index}})">{{:title}}</a>
+      </li>
+    </script>
+
+    <script id="t-video" type="text/x-jsrender">
+      {{:title}}
+      <video class="video-js" preload="auto" poster="{{:poster}}" controls crossorigin="anonymous">
+        <source src="{{:url}}" type="application/x-mpegURL">
+      </video>
+    </script>
+    
+    <script>
+      window.vids = [];
+
+      function showVid(idx) {
+        $("#video").html(
+          $.templates("#t-video").render(vids[idx])
+        );
+        videojs(document.querySelector('video'))
+      }
+
+      function renderVidList(vidList) {
+        $('#vid-list').html(
+          $.templates("#t-vid-list").render(vids)
+        )
+      }
+
+      function updateVidList(e) {
+        debugger;
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        $.getJSON('/vids.json', function(data) {
+          window.vids = data;
+          renderVidList(data)
+        })
+      });
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.84/jsrender.min.js"></script>
+    <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+  </body>
+</html>
