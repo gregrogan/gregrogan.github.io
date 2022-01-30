@@ -1,7 +1,5 @@
 *gregrogan.github.io*
 
-Source for music.gregrogan.com
-
 A standard github pages Jekyll site
 
 **Requirements**
@@ -10,3 +8,4 @@ A standard github pages Jekyll site
 **To develop**
 - bundle install
 - bundle exec jekyll serve --livereload
+- visit http://localhost:4000
