@@ -1,8 +1,9 @@
 # gregrogan.github.io
+# standard github pages Jekyll site
 
-** Requirements **
+**Requirements**
 - Ruby 2.6+
 
-** To develop **
+**To develop**
 - bundle install
 - bundle exec jekyll serve --livereload
