@@ -20,7 +20,7 @@ permalink: /
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
     </div>
     <div class="d-none d-sm-block col-sm-4 col-md-3 col-lg">
-        <img class="w-100" src='/assets/img/instruments.png'/>
+        <img class="w-100" src='/assets/img/action.png'/>
     </div>
 </div>
 <div class="row justify-content-center">
@@ -31,6 +31,6 @@ permalink: /
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
     </div>
     <div class="col-5 d-sm-none">
-        <img class="w-100" src='/assets/img/instruments.png'/>
+        <img class="w-100" src='/assets/img/action.png'/>
     </div>
 </div>
