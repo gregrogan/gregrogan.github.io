@@ -23,7 +23,7 @@ permalink: /
         <img class="w-100" src='/assets/img/instruments.png'/>
     </div>
 </div>
-<div class="row">
+<div class="row justify-content-center">
     <div class="col d-lg-none text-center">
         <p><mark>$45</mark> / 45 minute lesson</p>
         <p class="lead">Contact Greg</p>
