@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Saxophone, clarinet and flute lessons in Wellington"
+title: "Saxophone, clarinet and flute lessons in Wellington, NZ or online"
 permalink: /
 ---
 <div class="row mb-3">
@@ -20,7 +20,7 @@ permalink: /
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
     </div>
     <div class="d-none d-sm-block col-sm-4 col-lg align-self-center">
-        <img class="w-100" src='/assets/img/action.png'/>
+        <img class="w-100 h-auto" with='200' height='202' alt='Greg playing saxohpone' src='/assets/img/action.png'/>
     </div>
 </div>
 <div class="row justify-content-center">
@@ -31,6 +31,6 @@ permalink: /
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
     </div>
     <div class="col-5 d-sm-none">
-        <img class="w-100" src='/assets/img/action.png'/>
+        <img class="w-100 h-auto" with='200' height='202' alt='Greg playing saxohpone' src='/assets/img/action.png'/>
     </div>
 </div>
