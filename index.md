@@ -8,7 +8,7 @@ permalink: /
         <ul class="list-group">
             <li class="list-group-item list-group-item-action d-flex gap-3 py-3">Online or in person - studio in Thorndon or I can travel to you</li>
             <li class="list-group-item list-group-item-action d-flex gap-3 py-3">Decades of experience teaching and playing in many settings - 
-        jazz, pop/rock/funk/blues and some classical</li>
+        jazz, pop/rock/funk/blues and some classical - <a href="https://docs.google.com/document/d/1HiqZSmzY9uUcNlpoEE9uWm4qwI8UWkTmdGT5wBAlgPc/edit?usp=sharing">view my Music CV</a></li>
             <li class="list-group-item list-group-item-action d-flex gap-3 py-3">I love working with complete beginners, especially late starters and those with a background in other instruments</li>
             <li class="list-group-item list-group-item-action d-flex gap-3 py-3">No instrument? I can help arrange hireage</li>
         </ul>
