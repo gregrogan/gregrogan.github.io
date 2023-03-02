@@ -22,7 +22,12 @@ permalink: /
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
     </div>
     <div class="d-none d-sm-block col-sm-4 col-lg align-self-center">
-        <img class="w-100 h-auto" with='200' height='202' alt='Greg playing saxohpone' src='/assets/img/action.png'/>
+        <img class="w-100 h-auto image-rotate"
+             with='200' height='202' alt='Greg playing saxohpone' src='/assets/img/action.png'
+             with-1='200' height-1='202' alt-1='Greg playing baritone saxophone' src-1='/assets/img/action-bari.png'
+             with-2='200' height-2='286' alt-2='Greg playing alto saxophone' src-1='/assets/img/action-alto.jpg'
+             with-3='200' height-3='176' alt-3='Greg playing clarinet' src-3='/assets/img/action-clarinet.jpg'
+        />
     </div>
 </div>
 <div class="row justify-content-center">
@@ -33,6 +38,11 @@ permalink: /
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
     </div>
     <div class="col-5 d-sm-none">
-        <img class="w-100 h-auto" with='200' height='202' alt='Greg playing saxohpone' src='/assets/img/action.png'/>
+        <img class="w-100 h-auto image-rotate"
+             with='200' height='202' alt='Greg playing saxohpone' src='/assets/img/action.png'
+             with-1='200' height-1='202' alt-1='Greg playing baritone saxophone' src-1='/assets/img/action-bari.png'
+             with-2='200' height-2='286' alt-2='Greg playing alto saxophone' src-1='/assets/img/action-alto.jpg'
+             with-3='200' height-3='176' alt-3='Greg playing clarinet' src-3='/assets/img/action-clarinet.jpg'
+        />
     </div>
 </div>
