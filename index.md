@@ -15,7 +15,6 @@ permalink: /
         </ul>
     </div>
     <div class="d-none d-lg-block col-lg-3 align-self-center text-center">
-        <p>I'm not accepting new students at this stage, please check again soon</p>
         <!--
         <p><mark>$50</mark> / 45 minute lesson</p>
         <p class="lead">Contact Greg</p>
@@ -34,7 +33,6 @@ permalink: /
 </div>
 <div class="row justify-content-center">
     <div class="col d-lg-none align-self-center text-center">
-        <p>I'm not accepting new students at this stage, please check again soon</p>
         <!--
         <p><mark>$50</mark> / 45 minute lesson</p>
         <p class="lead">Contact Greg</p>
