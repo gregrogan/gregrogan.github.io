@@ -15,7 +15,7 @@ permalink: /
         </ul>
     </div>
     <div class="d-none d-lg-block col-lg-3 align-self-center text-center">
-        <p><mark>$50</mark> / 45 minute lesson</p>
+        <p><mark>$60</mark> / lesson</p>
         <p class="lead">Contact Greg</p>
         <p><i class="bi-telephone"></i> <a href="tel:+64273611389">027 3611 389</a></p>
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
@@ -32,7 +32,7 @@ permalink: /
 <div class="row justify-content-center">
     <div class="col d-lg-none align-self-center text-center">
         
-        <p><mark>$50</mark> / 45 minute lesson</p>
+        <p><mark>$60</mark> / lesson</p>
         <p class="lead">Contact Greg</p>
         <p><i class="bi-telephone"></i> <a href="tel:+64273611389">027 3611 389</a></p>
         <p><i class="bi-envelope"></i> <a href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a></p>
