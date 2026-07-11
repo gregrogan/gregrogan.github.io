@@ -30,7 +30,7 @@ permalink: /
 
 <section class="details">
   <ul class="points">
-    <li>I love working with complete beginners, especially late starters and those with a background in other instruments</li>
+    <li>I love working with <strong>complete beginners</strong>, comeback players, late starters and those with a background in other instruments</li>
     <li>I'm well-connected in the Wellington music scene to help you find playing and performance opportunities</li>
     <li>Option to participate in a house concert near the end of each year with an audience of supportive students and their family/friends!</li>
     <li>No instrument? I can help arrange hireage</li>
