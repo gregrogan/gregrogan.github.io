@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     {% if jekyll.environment == 'production' %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58783861-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -11,74 +10,63 @@
       gtag('config', 'UA-58783861-1');
     </script>
     {% endif %}
-    <meta charset="utf-8">
-    <meta name="description" content="Saxophone, clarinet and flute lessons in Wellington, NZ or online">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="theme-color" content="#f5f1e9">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="theme-color" content="#f6f2ea">
+
     <title>{{ page.title }}</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#334b42">
 
     <script type="application/ld+json">
       {
-        "@context": "http://www.schema.org",
-        "@type": "person",
+        "@context": "https://schema.org",
+        "@type": "Person",
         "name": "Greg Rogan",
         "jobTitle": "Saxophone, clarinet and flute tutor",
         "url": "https://music.gregrogan.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Thorndon",
-          "postOfficeBoxNumber": "6011",
-          "addressLocality": "Wellington",
-          "addressRegion": "Region",
-          "postalCode": "6011",
-          "addressCountry": "New Zealand"
-        },
         "email": "greg@gregrogan.com",
         "telephone": "+64273611389",
-        "birthDate": "1981-05-25"
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "http://www.schema.org",
-        "@type": "ProfessionalService",
-        "name": "Greg Rogan",
-        "url": "https://music.gregrogan.com",
-        "logo": "https://music.gregrogan.com/logo.png",
-        "image": "https://music.gregrogan.com/assets/img/action.png",
-        "description": "Saxophone, clarinet and flute lessons in Wellington, NZ or online",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Thorndon",
           "addressLocality": "Wellington",
           "addressRegion": "Wellington",
           "postalCode": "6011",
-          "addressCountry": "New Zealand"
-        },
-        "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su -",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+64273611389"
+          "addressCountry": "NZ"
         }
       }
     </script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/site.css">
-    <script src="assets/image-rotate.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Greg Rogan Music Lessons",
+        "url": "https://music.gregrogan.com",
+        "image": "https://music.gregrogan.com/assets/img/action.png",
+        "description": "{{ page.description }}",
+        "telephone": "+64273611389",
+        "email": "greg@gregrogan.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Thorndon",
+          "addressRegion": "Wellington",
+          "postalCode": "6011",
+          "addressCountry": "NZ"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="assets/css/site.css">
+    <script src="assets/js/image-rotate.js" defer></script>
   </head>
-  <body>
-    <main class="shell">
-      <h1>{{ page.title }}</h1>
-      {{ content }}
-    </main>
-    <footer class="shell">&copy; Greg Rogan {{ 'now' | date: "%Y" }}</footer>
+  <body class="page-fade">
+    {{ content }}
   </body>
 </html>
