@@ -38,4 +38,6 @@ jobs:
           source-dir: _site
           preview-branch: gh-pages
           umbrella-dir: pr-preview
+          # Explicitly point the PR comment link to your custom subdomain:
+          custom-url: https://music.gregrogan.com
           
