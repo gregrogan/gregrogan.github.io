@@ -19,10 +19,10 @@ permalink: /
       alt="Greg playing saxohpone"
       src="/assets/img/action.png"
       data-images='[
-        {"src":"/assets/img/action.png","alt":"Greg playing saxohpone","width":200,"height":202},
-        {"src":"/assets/img/action-bari.png","alt":"Greg playing baritone saxophone","width":200,"height":202},
-        {"src":"/assets/img/action-alto.jpg","alt":"Greg playing alto saxophone","width":200,"height":286},
-        {"src":"/assets/img/action-clarinet.jpg","alt":"Greg playing clarinet","width":200,"height":176}
+        {"src":"assets/img/action.png","alt":"Greg playing saxohpone","width":200,"height":202},
+        {"src":"assets/img/action-bari.png","alt":"Greg playing baritone saxophone","width":200,"height":202},
+        {"src":"assets/img/action-alto.jpg","alt":"Greg playing alto saxophone","width":200,"height":286},
+        {"src":"assets/img/action-clarinet.jpg","alt":"Greg playing clarinet","width":200,"height":176}
       ]'
     >
   </div>
