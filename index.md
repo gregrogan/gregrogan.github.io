@@ -7,7 +7,7 @@ permalink: /
 <div class="shell">
     <div class="topbar">
       <div class="brand">Greg Rogan</div>
-      <a href="mailto:greg@gregrogan.com?subject=Lesson enquiry">Enquire about lessons</a>
+      <a href="mailto:greg@gregrogan.com?subject=Lesson%20enquiry">Enquire about lessons</a>
     </div>
 
     <section class="hero">
@@ -20,7 +20,7 @@ permalink: /
         </div>
 
         <div class="actions">
-          <a class="button button-primary" href="mailto:greg@gregrogan.com?subject=Lesson enquiry">Enquire about lessons →</a>
+          <a class="button button-primary" href="mailto:greg@gregrogan.com?subject=Lesson%20enquiry">Enquire about lessons →</a>
           <a class="button button-secondary" href="https://docs.google.com/document/d/1HiqZSmzY9uUcNlpoEE9uWm4qwI8UWkTmdGT5wBAlgPc/edit?usp=sharing">See my Music CV</a>
         </div>
       </div>
@@ -76,7 +76,7 @@ permalink: /
         <p class="price"><b>$60</b> / lesson</p>
         <a class="contact-line" href="tel:+64273611389">027 3611 389</a>
         <a class="contact-line" href="mailto:greg@gregrogan.com?subject=Lessons">greg@gregrogan.com</a>
-        <a class="contact-cta" href="mailto:greg@gregrogan.com?subject=Lesson enquiry">Enquire about lessons →</a>
+        <a class="contact-cta" href="mailto:greg@gregrogan.com?subject=Lesson%20enquiry">Enquire about lessons →</a>
       </aside>
     </section>
 
@@ -97,7 +97,7 @@ permalink: /
     </section>
   </main>
 
-  <a class="floating" href="mailto:greg@gregrogan.com?subject=Lesson enquiry">Enquire</a>
+  <a class="floating" href="mailto:greg@gregrogan.com?subject=Lesson%20enquiry">Enquire</a>
 
   <div class="footer-wrap">
     <footer class="shell">
