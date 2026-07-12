@@ -382,6 +382,17 @@ footer{
   .hero-image-wrap{
     max-width:min(620px,82vw);
   }
+  .contact{
+    display:grid;
+    grid-template-columns:minmax(180px,.7fr) minmax(260px,1fr);
+    grid-template-rows:auto auto auto;
+    column-gap:clamp(32px,6vw,72px);
+    align-items:start;
+  }
+  .contact .small{grid-column:1;grid-row:1}
+  .contact .price{grid-column:1;grid-row:2 / span 2;margin-bottom:0}
+  .contact-line{grid-column:2}
+  .contact-cta{grid-column:2;margin-top:18px;justify-self:start}
 }
 @media(max-width:560px){
   .shell{width:min(100% - 22px,460px)}
