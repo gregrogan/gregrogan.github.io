@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Greg Rogan | Saxophone, Clarinet & Flute Lessons | Wellington"
-description: "Learn saxophone, clarinet or flute with Greg Rogan in Wellington. Friendly private lessons for beginners, returning players and developing musicians."
+description: "Learn saxophone, clarinet or flute with Greg Rogan in Wellington. Private lessons for beginners, returning players and developing musicians."
 permalink: /
 ---
 <div class="shell">
@@ -13,7 +13,7 @@ permalink: /
     <section class="hero">
       <div class="hero-copy">
         <h1>Saxophone, clarinet &amp; flute lessons</h1>
-        <p class="lead">Learning music should be enjoyable. Whether you’re picking up an instrument for the first time, returning after a break, or looking to build confidence, I’ll tailor lessons around the music you want to play.</p>
+        <p class="lead">Whether you’re picking up an instrument for the first time, returning after a break, looking to build confidence or delving into the world of improvisation, I’ll tailor lessons around the music you want to play.</p>
 
         <div class="intro">
           <p>Hi, I’m Greg. I’ve spent decades teaching and performing across jazz, pop, rock, funk, blues and some classical music. <a href="https://docs.google.com/document/d/1HiqZSmzY9uUcNlpoEE9uWm4qwI8UWkTmdGT5wBAlgPc/edit?usp=sharing">View my Music CV</a>.</p>
@@ -48,6 +48,7 @@ permalink: /
     <span>Saxophone</span>
     <span>Clarinet</span>
     <span>Flute</span>
+    <span>Improvisation</span>
     <span>Jazz</span>
     <span>Pop</span>
     <span>Rock</span>
