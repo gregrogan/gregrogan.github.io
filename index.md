@@ -16,7 +16,7 @@ permalink: /
         <p class="lead">Whether you’re picking up an instrument for the first time, returning after a break, looking to build confidence or delving into the world of improvisation, I’ll tailor lessons around the music you want to play.</p>
 
         <div class="intro">
-          <p>Hi, I’m Greg. I’ve spent decades teaching and performing on woodwind instruments in jazz bands, big bands, pit orchestras, concert bands, rock/funk/blues bands and many small ensmbles.</p>
+          <p>Hi, I’m Greg. I’ve spent decades teaching and performing on woodwind instruments in jazz bands, big bands, pit orchestras, concert bands, rock/funk/blues bands and many small ensembles.</p>
         </div>
 
         <div class="actions">
@@ -39,7 +39,7 @@ permalink: /
             {"src":"assets/img/action-clarinet.jpg","alt":"Greg Rogan playing clarinet"}
           ]'
         >
-        <p class="hero-caption">Private lessons in Thorndon, Wellington.<br/>I welcome beginners, late starters and returning players.</p>
+        <p class="hero-caption">Private lessons in Thorndon, Wellington.<br>I welcome beginners, late starters and returning players.</p>
       </div>
     </section>
   </div>
@@ -68,7 +68,7 @@ permalink: /
         <li><strong>Beginners welcome</strong>I especially enjoy working with complete beginners, late starters and people returning to music.</li>
         <li><strong>Wellington connections</strong>I’m well connected in the local music scene and can help introduce you to suitable ensembles and performance opportunities.</li>
         <li><strong>Supportive performance</strong>Students can have the option to take part in a relaxed house concert near the end of the year.</li>
-        <li><strong>No instrument yet?</strong>I can help arrange hireage so you can get started without needing to buy immediately.</li>
+        <li><strong>No instrument yet?</strong>I can help arrange instrument hire so you can get started without needing to buy immediately.</li>
       </ul>
 
       <aside class="contact">
