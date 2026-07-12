@@ -16,12 +16,12 @@ permalink: /
         <p class="lead">Whether you’re picking up an instrument for the first time, returning after a break, looking to build confidence or delving into the world of improvisation, I’ll tailor lessons around the music you want to play.</p>
 
         <div class="intro">
-          <p>Hi, I’m Greg. I’ve spent decades teaching and performing across jazz, pop, rock, funk, blues and some classical music. <a href="https://docs.google.com/document/d/1HiqZSmzY9uUcNlpoEE9uWm4qwI8UWkTmdGT5wBAlgPc/edit?usp=sharing">View my Music CV</a>.</p>
+          <p>Hi, I’m Greg. I’ve spent decades teaching and performing on woodwind instruments in jazz bands, big bands, pit orchestras, concert bands, rock/funk/blues bands and many small ensmbles.</p>
         </div>
 
         <div class="actions">
           <a class="button button-primary" href="mailto:greg@gregrogan.com?subject=Lesson%20enquiry">Enquire about lessons →</a>
-          <a class="button button-secondary" href="https://docs.google.com/document/d/1HiqZSmzY9uUcNlpoEE9uWm4qwI8UWkTmdGT5wBAlgPc/edit?usp=sharing">See my Music CV</a>
+          <a class="button button-secondary" target="_blank"  href="https://docs.google.com/document/d/1HiqZSmzY9uUcNlpoEE9uWm4qwI8UWkTmdGT5wBAlgPc/edit?usp=sharing">See my Music CV</a>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ permalink: /
             {"src":"assets/img/action-clarinet.jpg","alt":"Greg Rogan playing clarinet"}
           ]'
         >
-        <p class="hero-caption">Private lessons in Thorndon, Wellington, for beginners, late starters and returning players.</p>
+        <p class="hero-caption">Private lessons in Thorndon, Wellington.<br/>I welcome beginners, late starters and returning players.</p>
       </div>
     </section>
   </div>
