@@ -1,6 +1,12 @@
+title: "Greg Rogan Music Lessons"
+description: "Learn saxophone, clarinet or flute with Greg Rogan in Wellington. Private lessons for beginners, returning players and developing musicians."
+url: "https://music.gregrogan.com"
+baseurl: ""
+plugins:
+  - jekyll-sitemap
+
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
-baseurl: ""

@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,18 +28,18 @@
       <ul id="vid-list"></ul>
     </div>
 
-    <script id="t-vid-list" type="text/x-jsrender">
+    {% raw %}<script id="t-vid-list" type="text/x-jsrender">
       <li>
         <a href="#" onClick="showVid({{:id}})">{{:title}}</a>
       </li>
-    </script>
+    </script>{% endraw %}
 
-    <script id="t-video" type="text/x-jsrender">
+    {% raw %}<script id="t-video" type="text/x-jsrender">
       <h2 style='display: inline-block'>{{:title}}</h2> <button onclick='showVid()'>close</button>
       <video class="video-js" preload="auto" poster="{{:poster}}" controls crossorigin="anonymous">
         <source src="{{:url}}" type="application/x-mpegURL">
       </video>
-    </script>
+    </script>{% endraw %}
     
     <script>
       window.vids = [];

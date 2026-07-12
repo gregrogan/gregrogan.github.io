@@ -1,16 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% if jekyll.environment == 'production' %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58783861-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-58783861-1');
-    </script>
-    {% endif %}
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description }}">
@@ -18,41 +8,54 @@
 
     <title>{{ page.title }}</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#334b42">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/assets/img/action.png' | absolute_url }}">
+    <meta property="og:image:alt" content="Greg Rogan playing saxophone">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ '/assets/img/action.png' | absolute_url }}">
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Greg Rogan",
-        "jobTitle": "Saxophone, clarinet and flute tutor",
-        "url": "https://music.gregrogan.com",
-        "email": "greg@gregrogan.com",
-        "telephone": "+64273611389",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Wellington",
-          "addressRegion": "Wellington",
-          "postalCode": "6011",
-          "addressCountry": "NZ"
-        }
-      }
-    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+    <link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#334b42">
 
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
+        "@id": "{{ '/' | absolute_url }}#business",
         "name": "Greg Rogan Music Lessons",
-        "url": "https://music.gregrogan.com",
-        "image": "https://music.gregrogan.com/assets/img/action.png",
-        "description": "{{ page.description }}",
+        "url": "{{ '/' | absolute_url }}",
+        "image": "{{ '/assets/img/action.png' | absolute_url }}",
+        "description": {{ page.description | jsonify }},
         "telephone": "+64273611389",
         "email": "greg@gregrogan.com",
+        "priceRange": "$60 per lesson",
+        "areaServed": {"@type": "City", "name": "Wellington"},
+        "knowsAbout": ["Saxophone", "Clarinet", "Flute", "Improvisation", "Jazz"],
+        "founder": {
+          "@type": "Person",
+          "@id": "{{ '/' | absolute_url }}#greg-rogan",
+          "name": "Greg Rogan",
+          "jobTitle": "Saxophone, clarinet and flute tutor"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Music lessons",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Saxophone lessons"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Clarinet lessons"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Flute lessons"}}
+          ]
+        },
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Thorndon",
@@ -63,10 +66,11 @@
       }
     </script>
 
-    <link rel="stylesheet" href="assets/css/site.css">
-    <script src="assets/js/image-rotate.js" defer></script>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <script src="{{ '/assets/js/image-rotate.js' | relative_url }}" defer></script>
   </head>
   <body class="page-fade">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     {{ content }}
   </body>
 </html>

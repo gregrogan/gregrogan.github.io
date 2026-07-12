@@ -29,6 +29,17 @@ a:focus-visible,summary:focus-visible{
   outline-offset:4px;
 }
 .shell{width:min(1200px,calc(100% - 44px));margin:auto}
+.skip-link{
+  position:fixed;
+  top:12px;
+  left:12px;
+  z-index:100;
+  padding:10px 14px;
+  color:#fff;
+  background:var(--olive-deep);
+  transform:translateY(-150%);
+}
+.skip-link:focus{transform:none}
 .page-fade{animation:pageIn .28s ease-out both}
 @keyframes pageIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 
@@ -171,13 +182,15 @@ h1{
   border-bottom:1px solid var(--line);
   background:rgba(255,255,255,.28);
   font-family:Georgia,"Times New Roman",serif;
+  margin:0;
+  list-style:none;
 }
-.styles span::after{
+.styles li::after{
   content:"•";
   margin-left:28px;
   color:var(--brass);
 }
-.styles span:last-child::after{content:""}
+.styles li:last-child::after{content:""}
 
 .main-content{padding:94px 0 0}
 .section-intro{
@@ -243,6 +256,8 @@ h2{
   font-weight:800;
   letter-spacing:.14em;
   text-transform:uppercase;
+  font-family:inherit;
+  line-height:1.65;
 }
 .contact .price{
   margin:0 0 16px;
@@ -417,7 +432,7 @@ footer{
   .button{width:100%}
   .contact-cta{display:flex;width:100%}
   .styles{gap:8px 18px;padding:20px 22px}
-  .styles span::after{margin-left:18px}
+  .styles li::after{margin-left:18px}
   .main-content{padding-top:68px}
   .points{grid-template-columns:1fr}
   .contact{padding:26px 22px}
