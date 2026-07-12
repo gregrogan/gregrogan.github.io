@@ -88,8 +88,6 @@ permalink: /
       </div>
 
       <div class="faq-list">
-        <details><summary>Are complete beginners welcome?</summary><p>Yes. I especially enjoy working with complete beginners, late starters and people who already have experience on another instrument.</p></details>
-        <details><summary>What styles do you teach?</summary><p>Lessons can cover jazz, pop, rock, funk, blues and some classical music, depending on what you want to play.</p></details>
         <details><summary>Do I need my own instrument?</summary><p>No. I can help arrange hireage if you do not yet have an instrument.</p></details>
         <details><summary>Can you help me choose an instrument?</summary><p>Absolutely. Whether you're buying your first instrument or thinking about an upgrade, I can help you understand the pros and cons of different models, brands and price points. I'll explain what you're paying for, what matters most at different stages of learning, and help you choose an instrument that suits your goals and budget.</p></details>
         <details><summary>Can you help me find people to play with?</summary><p>Yes. I’m well connected in the Wellington music scene and I’m happy to help introduce students to suitable ensembles and performance opportunities.</p></details>
